@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "css/theme-colors.css",
+	"sources": [
+		"css/theme-colors.scss"
+	],
+	"sourcesContent": [
+		"\r\n// Color Schemas\r\n\r\n$theme-ffffff:      #ffffff;\r\n$theme-003591:      #003591;\r\n$theme-858585:      #858585;\r\n$theme-666666:      #666666;\r\n$theme-6a6a6a:      #6a6a6a;\r\n$theme-080000:      #080000;\r\n"
+	],
+	"mappings": "",
+	"names": []
+}
