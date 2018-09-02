@@ -739,7 +739,7 @@ label {
       position: relative; }
       .section-1 .s1-content .s1-intro .s1i-tittle-image-text-cta .s1ititc-title-image .s1i-title {
         position: absolute;
-        top: -20%;
+        top: -80px;
         z-index: 3; }
         @media (max-width: 1300px) {
           .section-1 .s1-content .s1-intro .s1i-tittle-image-text-cta .s1ititc-title-image .s1i-title {
@@ -1037,7 +1037,8 @@ label {
             text-align: center;
             margin-bottom: 30px; } }
         .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-title {
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          height: 60px; }
           .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-title h2 {
             margin: 0;
             font-size: 60px;
@@ -1053,7 +1054,8 @@ label {
               .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-title h2 {
                 font-size: 30px; } }
         .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-desc {
-          max-width: 200px; }
+          border-bottom: 1px solid #000;
+          height: 80px; }
           @media (max-width: 992px) {
             .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-desc {
               height: 60px; } }
@@ -1066,21 +1068,12 @@ label {
             @media (max-width: 992px) {
               .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li .fcl-desc p {
                 font-size: 12px; } }
-        .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li:after {
-          position: absolute;
-          width: 12vw;
-          height: 1px;
-          border: 1px solid #003591;
-          content: '';
-          bottom: 0;
-          left: 0;
-          z-index: 3; }
-          @media (max-width: 767px) {
-            .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li:after {
-              width: 30vw;
-              left: 15%;
-              border: none;
-              background-color: #003591; } }
+        @media (max-width: 767px) {
+          .section-1 .s1-content .s1-intro .s1i-four-column-listing ul li:after {
+            width: 30vw;
+            left: 15%;
+            border: none;
+            background-color: #003591; } }
   .section-1 .s1-tab-selector-mobile {
     margin: 40px 0 90px;
     position: relative; }
@@ -1118,7 +1111,7 @@ label {
         padding-right: 0; } }
     .section-2 .s2-contain .s2c-left-image .sec-title {
       position: absolute;
-      top: -17%;
+      top: -16%;
       left: 50px;
       z-index: 2; }
       @media (max-width: 992px) {

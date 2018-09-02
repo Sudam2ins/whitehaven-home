@@ -835,7 +835,7 @@ label{
 					position: relative;
 					.s1i-title{
 						position: absolute;
-						top:-20%;
+						top:-80px;
 						z-index: 3;
 						@media (max-width: 1300px) {
 							top:-24%;
@@ -1222,6 +1222,7 @@ label{
 						padding-left: 10px;
 						padding-right: 10px;
 						width: 25%;
+
 						@media (max-width: 767px) {
 							width: 50%;
 							text-align: center;
@@ -1230,6 +1231,7 @@ label{
 						}
 						.fcl-title{
 							margin-bottom: 20px;
+							height: 60px;
 							h2{
 								margin: 0;
 								font-size: 60px;
@@ -1245,9 +1247,11 @@ label{
 									font-size: 30px;
 								}
 							}
+
 						}
 						.fcl-desc{
-							max-width: 200px;
+							border-bottom:1px solid #000;
+							height: 80px;
 							@media (max-width: 992px) {
 								height: 60px;
 							}
@@ -1264,14 +1268,14 @@ label{
 							}
 						}
 						&:after{
-							position: absolute;
-							width: 12vw;
-							height: 1px;
-							border:1px solid $theme-003591;
-							content: '';
-							bottom: 0;
-							left: 0;
-							z-index: 3;
+							// position: absolute;
+							// width: 12vw;
+							// height: 1px;
+							// border:1px solid $theme-003591;
+							// content: '';
+							// bottom: 0;
+							// left: 0;
+							// z-index: 3;
 							@media (max-width: 767px) {
 								width: 30vw;
 								left: 15%;
@@ -1327,7 +1331,7 @@ label{
 			}
 			.sec-title{
 				position: absolute;
-				top: -17%;
+				top: -16%;
 				left: 50px;
 				z-index: 2;
 				@media (max-width: 992px) {
